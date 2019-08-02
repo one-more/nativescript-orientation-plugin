@@ -7,3 +7,5 @@ docs/
 *.tgz
 .npmignore
 node_modules/
+demo
+docs

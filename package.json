@@ -1,9 +1,9 @@
 {
-		"name": "nativescript-orientation",
+		"name": "nativescript-orientation-plugin",
 		"version": "2.2.3",
 		"description": "A NativeScript plugin to deal with Declarative UI and Screen Orientation",
-		"main": "orientation",
-		"typings": "index.d.ts",
+		"main": "src/orientation",
+		"typings": "src/index.d.ts",
 		"nativescript": {
 				"platforms": {
 						"android": "6.0.0",
@@ -19,11 +19,11 @@
 		},
 		"repository": {
 				"type": "git",
-				"url": "https://proplugins.org/proplugins/nativescript-orientation.git"
+				"url": "https://github.com/one-more/nativescript-orientation-plugin.git"
 		},
 		"dependencies": {
 				"nativescript-globalevents": "latest",
-				"nativescript-dom": "latest"
+				"nativescript-dom-plugin": "git+https://github.com/one-more/nativescript-dom-plugin.git"
 		},
 		"keywords": [
 				"NativeScript",
@@ -71,19 +71,23 @@
 						"name": "Brad Linard",
 						"email": "brad.linard@idelata.com",
 						"url": "https://github.com/blinard"
-				}
+				},
+			{
+				"name": "Dmitry Nikolaev",
+				"email": "dmni3865@gmail.com"
+			}
 		],
 		"license": {
 				"type": "MIT",
-				"url": "https://proplugins.org/proplugins/nativescript-orientation/blob/master/LICENSE"
+				"url": "https://github.com/one-more/nativescript-orientation-plugin.git/blob/master/LICENSE"
 		},
 		"bugs": {
-				"url": "https://proplugins.org/proplugins/nativescript-orientation/issues"
+				"url": "https://github.com/one-more/nativescript-orientation-plugin.git/issues"
 		},
 		"scripts": {
 			"postinstall": "node postinstall.js || echo \"ignore\""
 		},
-		"homepage": "https://proplugins.org/proplugins/nativescript-orientation",
+		"homepage": "https://github.com/one-more/nativescript-orientation-plugin.git",
 		"readmeFilename": "README.md",
 		"devDependencies": {}
 }
