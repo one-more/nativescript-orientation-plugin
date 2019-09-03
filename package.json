@@ -85,7 +85,7 @@
 				"url": "https://github.com/one-more/nativescript-orientation-plugin.git/issues"
 		},
 		"scripts": {
-			"postinstall": "node postinstall.js || echo \"ignore\""
+			
 		},
 		"homepage": "https://github.com/one-more/nativescript-orientation-plugin.git",
 		"readmeFilename": "README.md",
